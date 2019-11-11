@@ -1,0 +1,15 @@
+npm install -g yarn
+npm install -g ts-node
+npm install -g typescript
+
+npm install -g three
+npm install -g leaflet
+
+yarn add @here/harp-mapview
+npm install @here/harp-mapview
+npm install @here/harp-leaflet
+
+git clone https://github.com/heremaps/harp.gl.git
+cd harp.gl
+yarn install
+# yarn start --port 8888
