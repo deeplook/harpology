@@ -1,0 +1,13 @@
+npm install -g yarn
+npm install three
+npm install leaflet
+npm install @here/harp-mapview
+npm install @here/harp-leaflet
+
+# python -m http.server 8888
+
+# git clone https://github.com/heremaps/harp.gl.git
+# cd harp.gl
+# yarn install
+# yarn build-bundle
+# yarn start
