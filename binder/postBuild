@@ -1,3 +1,5 @@
+#!/bin/bash
+
 npm install -g yarn
 npm install three
 npm install leaflet
