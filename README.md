@@ -7,4 +7,4 @@
 
 ## Phase 1: Get a dummy webservice running
 
-The "webservice" is simply to run `python3 -m http.server 8888` which should be made available inside a container built with binder or repo2docker with some link. Running this iside the contain works, specifying it with an `--appendix` flag like in `jupyter-repo2docker --appendix 'CMD ["python3", "-m", "http.server", "8888"]' .` doesn't. To test if the service is running one can use `elinks http://localhost:8888`. Calling the service via some link like `http://localhost:<jupyter-port>/proxy/8888` also doesn't work, yet. Any help is very welcome! 
+The "webservice" is simply to run `python3 -m http.server <port>`. The service appears in Jupyter's "New..." dropdown menu and  can be also called via `http://localhost:<jupyter-port>/DirectoryBrowser`. More to come... 
