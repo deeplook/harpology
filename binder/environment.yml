@@ -6,4 +6,5 @@ dependencies:
   - nodejs
   - pip
   - pip:
+    - Flask
     - jupyter-server-proxy
