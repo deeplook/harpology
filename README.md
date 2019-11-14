@@ -5,6 +5,6 @@
 - https://github.com/heremaps/harp.gl
 - https://github.com/heremaps/harp-leaflet
 
-## Phase 1: Get a dummy webservice running
+## Phase 1: Get dummy sample webservices running
 
-The "webservice" is simply to run `python3 -m http.server <port>`. The service appears in Jupyter's "New..." dropdown menu and  can be also called via `http://localhost:<jupyter-port>/DirectoryBrowser`. More to come... 
+One "webservice" is simply to run a "directory browser" with `python3 -m http.server <port>`. The other is a tiny demo Flask server. These services appear in Jupyter's "New" dropdown menu. More to come... 
