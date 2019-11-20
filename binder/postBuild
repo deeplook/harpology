@@ -1,10 +1,10 @@
 #!/bin/bash
 
-npm install -g yarn
-npm install three
-npm install leaflet
-npm install @here/harp-mapview
-npm install @here/harp-leaflet
+# npm install -g yarn
+# npm install three
+# npm install leaflet
+# npm install @here/harp-mapview
+# npm install @here/harp-leaflet
 
 # git clone https://github.com/heremaps/harp.gl.git
 # cd harp.gl
