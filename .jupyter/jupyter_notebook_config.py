@@ -1,5 +1,5 @@
 c.ServerProxy.servers = {
-  'DirectoryBrowser': {
+  'FileBrowser': {
     'command': ['python3', '-m', 'http.server', '{port}'],
     'absolute_url': False
   },
